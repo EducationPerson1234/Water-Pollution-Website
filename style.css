@@ -1,0 +1,79 @@
+.footerleft {
+    position: relative;
+    text-align:left;
+    top:570px;
+    padding-left:30px;
+    background-color:grey;
+    width:100%;
+    padding:10px;
+    color:white;
+}
+
+.footerright {
+    position:relative;
+    text-align:right;
+    top:520px;
+    padding-right:30px;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:white;
+}
+
+.footercontact {
+    position:relative;
+    color:white;
+    top:470px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:darkslategrey;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:green;
+  color: white;}
+
+.percentage {
+  float:left;
+  padding-left:60px;
+}
+
+.importance {
+  float:right;
+  padding-right:60px;
+}
+
+.importancep {
+  float:right;
+  padding:20px;
+  color:black;
+}
+
+.percentagep {
+  float:left;
+  padding:20px;
+  color:black;
+}
