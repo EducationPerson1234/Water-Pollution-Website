@@ -1,6 +1,7 @@
-.footerleft {
+/*Index page CSS*/
+.footerleft { 
     position: relative;
-    text-align:left;
+    text-align:left; /*Aligns the text to the left*/
     top:570px;
     padding-left:30px;
     background-color:grey;
@@ -11,41 +12,49 @@
 
 .footerright {
     position:relative;
-    text-align:right;
+    text-align:right; /*Aligns the text to the right*/
     top:520px;
     padding-right:30px;
     color:white;
 }
 
 .header{
-    text-align:center;
+    text-align:center; /*Aligns the text in the center*/
     color:black;
     font-family:'Times New Roman', Times, serif;
+    position:relative;
+    top:50px;
+    
 }
 
 body{
-    background-color:white;
+    background-color:white; /*Background colour of the body page*/
 }
 
 .footercontact {
     position:relative;
-    color:white;
-    top:470px;
+    background-color:white;
+    top:470px
+    
 }
 
 .topnav {
   overflow: hidden;
-  background-color:darkslategrey;
+  background-color:darkslategrey; /*Colour of the top navigation bar*/
+  position:absolute; 
+  top:0px;
+  left:0px;
+  width:1536px;
 }
 
-.topnav a {
-  float: left;
+.topnav a { /*This controls everything with the topnav div*/
+  display:inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
+} 
 
 .topnav a:hover {
   background-color: #ddd;
@@ -56,24 +65,74 @@ body{
   background-color:green;
   color: white;}
 
-.percentage {
-  float:left;
-  padding-left:60px;
-}
-
-.importance {
-  float:right;
-  padding-right:60px;
-}
-
-.importancep {
-  float:right;
-  padding:20px;
-  color:black;
-}
-
-.percentagep {
+.percentage { /*This controls everything with the percentage div*/
   float:left;
   padding:20px;
-  color:black;
+  background-color:black;
+}
+
+.importance { /*This controls everything with the importance div*/
+  float:right;
+  padding:20px;
+  background-color:black;
+}
+
+.importancep { /*This controls everything with importancep div*/
+  float:right;
+  padding:20px;
+  color:black; /*This will make the colour of the text black*/
+}
+
+.percentagep { /*This controls everything with the percentagep div*/
+  float:left; /*This will make the*/
+  padding:20px;
+  color:black; /*This will make the colour of the text black*/
+}
+
+.indexbody{
+background-color:black;
+
+}
+
+/*About page CSS*/
+.aboutbody{
+  background-color:white;
+}
+
+
+/*News page CSS*/
+.aboutnews {
+  background-color:white;
+}
+
+
+
+/*Contact page CSS*/
+.aboutcontact {
+  background-color:white;
+}
+
+
+.cu-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  padding:15px 25px;
+  position:relative;
+  top:480px;
+  
+  
+
+}
+
+.cu-btn:hover {
+  background-color:black;
+}
+
+/*News Content CSS*/
+.newscontent {
+  font-family:'Times New Roman', Times, serif;
+  background-color:darkslategray;
+  color:white;
 }
